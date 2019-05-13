@@ -2,6 +2,22 @@
 
 Practice terraform with aws
 
+## Syntax
+```terraform
+resource "aws_vpc" "main" {
+  cidr_block = var.base_cidr_block
+}
+
+<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
+  # Block body
+  <IDENTIFIER> = <EXPRESSION> # Argument
+}
+```
+
+### depends_on
+
+depends_on argument is accepted by any resource and accepts a list of resources to create explicit dependencies for.
+
 ## Commands
 ```shell
 terraform init
