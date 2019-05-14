@@ -47,3 +47,10 @@ it behaves as if all of the resources have been removed from the configuration.
 - [GETTING STARTED - AWS](https://learn.hashicorp.com/terraform/getting-started/install)
 - [Configuration Language](https://www.terraform.io/docs/configuration/index.html)
 - [Terratest](https://www.facebook.com/smalltown0110/posts/2355014914510602)
+
+- [https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c](https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c)
+- [https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180](https://blog.gruntwork.io/an-introduction-to-terraform-f17df9c6d180)
+- [https://blog.gruntwork.io/how-to-manage-terraform-state-28f5697e68fa](https://blog.gruntwork.io/how-to-manage-terraform-state-28f5697e68fa)
+- [https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d](https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d)
+- [https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9](https://blog.gruntwork.io/terraform-tips-tricks-loops-if-statements-and-gotchas-f739bbae55f9)
+- [https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973](https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973)
