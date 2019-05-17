@@ -19,3 +19,7 @@ variable "amis" {
     "us-west-2" = "ami-4b32be2b"
   }
 }
+
+output "consul_server_asg_name" {
+  value = "${module.consul.asg_name_servers}"
+}
