@@ -31,6 +31,12 @@ It shows the execution plan, describing which actions Terraform will take in ord
 
 If the plan was created successfully, Terraform will now pause and wait for approval before proceeding. If anything in the plan seems incorrect or dangerous, it is safe to abort here with no changes made to your infrastructure. In this case the plan looks acceptable, so type yes at the confirmation prompt to proceed.
 
+```bash
+terraform apply \
+  -var 'access_key=foo' \
+  -var 'secret_key=bar'
+```
+
 ```
 terraform show
 ```
