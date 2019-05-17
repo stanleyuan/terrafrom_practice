@@ -45,7 +45,12 @@ It inspects the current state
 ```
 terraform destroy
 ```
-it behaves as if all of the resources have been removed from the configuration.
+It behaves as if all of the resources have been removed from the configuration.
+
+```
+terraform output
+```
+Outputs are a way to tell Terraform what data is important. This data is outputted when apply is called, and can be queried using the terraform output command.
 
 
 # Resource
