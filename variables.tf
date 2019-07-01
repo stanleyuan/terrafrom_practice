@@ -12,7 +12,7 @@ variable "cidrs" {
 #}
 
 variable "amis" {
-  type = "map"
+  type = map(string)
 
   default = {
     "us-east-1" = "ami-b374d5a5"
@@ -21,5 +21,6 @@ variable "amis" {
 }
 
 output "consul_server_asg_name" {
-  value = "${module.consul.asg_name_servers}"
+  value = module.consul.asg_name_servers
 }
+

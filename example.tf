@@ -7,3 +7,4 @@ module "consul" {
 
   num_servers = "3"
 }
+
